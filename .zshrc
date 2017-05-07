@@ -12,6 +12,6 @@ antigen bundle git
 antigen bundle zsh-users/zsh-syntax-highlighting 
 
 # theme
-antigen theme agnoster 
+antigen theme ys
 
 antigen apply
