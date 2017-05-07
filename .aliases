@@ -1,0 +1,60 @@
+# Unileter alias
+alias d='eog'
+alias g='git'
+alias m='make'
+alias o='evince' #pdf viewer
+alias p='python3'
+alias r='cargo run'
+alias t='tmux'
+alias v='nvim'
+
+# Navigation alias
+alias doc='cd ~/Documents'
+alias pro='cd ~/Documents/Projets'
+alias pp='cd ~/Documents/python/'
+alias pc='cd ~/Documents/C/'
+alias pa='cd ~/Documents/ASP/'
+alias pr='cd ~/Documents/rust/'
+alias cr='clear'
+alias ll='ls -lh'
+alias cdr='cd ..'
+alias md='mkdir'
+alias grep='grep --color'
+
+# Git alias
+alias ga='git add'
+alias gi='git init'
+alias gc='git commit'
+alias gst='git status'
+alias gm='git mv'
+alias grm='git rm'
+alias gp='git push'
+alias gu='git pull'
+
+# Programm alias
+alias clingo='~/Documents/ASP/Clingo/clingo'
+alias irc='weechat-curses'
+alias yt='mpsyt'
+alias mp="mplayer"
+
+# Snakemake alias
+alias sm='snakemake'
+
+# Sudo using alias
+alias pi='sudo pip3 install'
+alias install='sudo dnf install'
+alias up='sudo dnf upgrade'
+
+# Templates alias
+alias np='cp ~/Documents/templates/python_template.py'
+alias na='cp ~/Documents/templates/asp_template.lp'
+alias nd='cp ~/Documents/templates/uml_template.dot'
+
+# Rust alias
+alias cn='cargo new'
+alias cb='cargo build'
+alias cu='cargo update'
+
+# Python virtualenv alias
+alias crenv='virtualenv venv -p /usr/bin/python3'
+alias srenv='source venv/bin/activate'
