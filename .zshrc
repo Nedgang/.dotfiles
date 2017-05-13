@@ -28,6 +28,9 @@ antigen bundle fancy-ctrl-z
 # cargo autocompletion
 antigen bundle cargo
 
+# Coloration of man pages
+antigen bundle colored-man-pages
+
 # colors
 antigen bundle zsh-users/zsh-syntax-highlighting 
 
