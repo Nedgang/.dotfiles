@@ -10,6 +10,7 @@ pull:
 	git pull
 
 update:
+	antigen selfupdate
 	antigen update
 
 install:
