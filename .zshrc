@@ -16,6 +16,9 @@ antigen bundle git
 # Explain how to install missing binary
 antigen bundle command-not-found
 
+# Chuck Norris
+antigen bundle chucknorris
+
 # colors
 antigen bundle zsh-users/zsh-syntax-highlighting 
 
