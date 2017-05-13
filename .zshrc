@@ -35,7 +35,7 @@ antigen bundle colored-man-pages
 antigen bundle extract
 
 # Random quote
-antigen bundle random-quote
+antigen bundle rand-quote
 
 # colors
 antigen bundle zsh-users/zsh-syntax-highlighting 
