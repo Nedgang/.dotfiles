@@ -16,7 +16,7 @@ antigen bundle git
 # Explain how to install missing binary
 antigen bundle command-not-found
 
-# Chuck Norris
+# Chuck Norris facts on demand
 antigen bundle chucknorris
 
 # colors
