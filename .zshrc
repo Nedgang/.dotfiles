@@ -19,6 +19,9 @@ antigen bundle command-not-found
 # Chuck Norris facts on demand
 antigen bundle chucknorris
 
+# Colorization for cat
+antigen bundle colorize
+
 # colors
 antigen bundle zsh-users/zsh-syntax-highlighting 
 
