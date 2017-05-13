@@ -25,6 +25,9 @@ antigen bundle colorize
 # ctrl-z alias of fg
 antigen bundle fancy-ctrl-z
 
+# cargo autocompletion
+antigen bundle cargo
+
 # colors
 antigen bundle zsh-users/zsh-syntax-highlighting 
 
