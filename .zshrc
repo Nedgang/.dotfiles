@@ -22,6 +22,9 @@ antigen bundle chucknorris
 # Colorization for cat
 antigen bundle colorize
 
+# ctrl-z alias of fg
+antigen bundle fancy-ctrl-z
+
 # colors
 antigen bundle zsh-users/zsh-syntax-highlighting 
 
