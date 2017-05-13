@@ -31,6 +31,9 @@ antigen bundle cargo
 # Coloration of man pages
 antigen bundle colored-man-pages
 
+# Easy extract
+antigen bundle extract
+
 # colors
 antigen bundle zsh-users/zsh-syntax-highlighting 
 
