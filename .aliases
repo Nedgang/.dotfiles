@@ -20,6 +20,7 @@ alias ll='ls -lh'
 alias cdr='cd ..'
 alias md='mkdir'
 alias grep='grep --color'
+alias cluster='ssh dvpicard@dga-cluster.jouy.inra.fr'
 
 # Git alias
 alias ga='git add'
