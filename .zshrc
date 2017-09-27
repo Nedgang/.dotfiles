@@ -40,6 +40,9 @@ antigen bundle rand-quote
 # colors
 antigen bundle zsh-users/zsh-syntax-highlighting 
 
+# z -> jump directly to known directory
+antigen bundle z
+
 # theme
 antigen theme ys
 
