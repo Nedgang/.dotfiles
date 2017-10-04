@@ -5,6 +5,7 @@ source:
 	cp ~/.dotfiles/.zshrc ~/.zshrc
 	cp ~/.dotfiles/.bashrc ~/.bashrc
 	cp ~/.dotfiles/.bash_profile ~/.bash_profile
+	cp ~/.dotfiles/.tmux.conf ~/.tmux.conf
 
 pull:
 	git pull
