@@ -42,7 +42,7 @@ alias mp="mplayer"
 alias sm='snakemake'
 
 # Sudo using alias
-alias pi='sudo pip3 install'
+alias pi='pip3 install --user'
 alias install='sudo dnf install'
 alias up='sudo dnf upgrade'
 
