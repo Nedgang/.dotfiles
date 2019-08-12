@@ -1,4 +1,5 @@
 # Unileter alias
+alias b='black *.py'
 alias d='eog'
 alias g='git'
 alias m='make'
