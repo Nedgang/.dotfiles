@@ -44,8 +44,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle z
 
 # theme
-antigen theme ys
+antigen theme mira
 
 antigen apply
-
 
