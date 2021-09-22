@@ -1,18 +1,17 @@
-# Unileter alias
 alias b='black *.py'
 alias d='eog'
 alias g='git'
 alias m='make'
 alias o='evince' #pdf viewer
-alias p='python3'
-alias ip='ipython3'
+alias py='python3'
+alias ipy='ipython3'
 alias r='cargo run'
 alias t='tmux'
 alias v='nvim'
 
 # Navigation alias
 alias doc='cd ~/Documents'
-alias pro='cd ~/Documents/Projets'
+alias pro='cd ~/Projects'
 alias pp='cd ~/Documents/python/'
 alias pc='cd ~/Documents/C/'
 alias pa='cd ~/Documents/ASP/'
