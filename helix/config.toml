@@ -79,5 +79,8 @@ C-space = "save_selection"
 # Instant format on C-f
 C-f = ":format"
 
+# Easy goto-word
+"backspace" = "goto_word"
+
 "F1" = ":config-reload"
 "F2" = ":config-open"
