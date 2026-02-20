@@ -1,11 +1,11 @@
 all: pull source update
 
 source:
-	cp ~/.dotfiles/.aliases ~/.aliases
-	cp ~/.dotfiles/.zshrc ~/.zshrc
-	cp ~/.dotfiles/.bashrc ~/.bashrc
-	cp ~/.dotfiles/.bash_profile ~/.bash_profile
-	cp ~/.dotfiles/.tmux.conf ~/.tmux.conf
+	ln -s ~/.dotfiles/.aliases ~/.aliases
+	ln -s ~/.dotfiles/.zshrc ~/.zshrc
+	ln -s ~/.dotfiles/.bashrc ~/.bashrc
+	ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
+	ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 
 pull:
 	git pull
