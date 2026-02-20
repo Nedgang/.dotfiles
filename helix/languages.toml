@@ -1,0 +1,14 @@
+# language-servers = ["pylsp"]
+[[language]]
+name = "python"
+language-servers = ["ruff", "pylsp"]
+auto-format = true
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+
+# Configuration light du LSP python
+[language-server.pylsp.config.pylsp.plugins]
+ruff = {enabled = true}
+flake8 = {enabled = false, ignore = ["E501", "W503"]}
