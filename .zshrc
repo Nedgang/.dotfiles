@@ -13,15 +13,6 @@ antigen bundle git
 # Explain how to install missing binary
 antigen bundle command-not-found
 
-# Colorization for cat
-antigen bundle colorize
-
-# ctrl-z alias of fg
-antigen bundle fancy-ctrl-z
-
-# cargo autocompletion
-antigen bundle cargo
-
 # Coloration of man pages
 antigen bundle colored-man-pages
 
