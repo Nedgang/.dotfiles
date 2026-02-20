@@ -1,8 +1,5 @@
 autoload antigen
 
-# Aliases
-source ~/.aliases
-
 #Antigen
 source ~/.dotfiles/antigen/antigen.zsh 
 
@@ -42,4 +39,5 @@ antigen theme ys
 
 antigen apply
 
-
+# Aliases
+source ~/.aliases
