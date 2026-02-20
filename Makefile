@@ -4,6 +4,8 @@ source:
 	ln -s ~/.dotfiles/.aliases ~/.aliases
 	ln -s ~/.dotfiles/.zshrc ~/.zshrc
 	ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+	ln -s ~/.dotfiles/helix/config.toml ~/.config/helix/config.toml
+	ln -s ~/.dotfiles/helix/languages.toml ~/.config/helix/languages.toml
 
 pull:
 	git pull
