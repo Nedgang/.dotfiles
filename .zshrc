@@ -10,9 +10,6 @@ antigen use oh-my-zsh
 antigen bundle arialdomartini/oh-my-git 
 antigen bundle git
 
-# Explain how to install missing binary
-antigen bundle command-not-found
-
 # Coloration of man pages
 antigen bundle colored-man-pages
 
