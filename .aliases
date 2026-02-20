@@ -8,8 +8,9 @@ alias ip='ipython3'
 alias t='tmux'
 
 # Navigation alias
-alias cr='clear'
-alias ll='ls -lha'
+alias ll='ls -alFh'
+alias la='ls -Ah'
+alias l='ls -ltrh'
 alias cdr='cd ..'
 alias md='mkdir'
 alias grep='grep --color'
@@ -20,3 +21,11 @@ alias sm='snakemake'
 # Python virtualenv alias
 alias crenv='virtualenv venv -p /usr/bin/python3'
 alias srenv='source venv/bin/activate'
+
+# tmux
+alias t='tmux new-session -A -s "Travail"'
+
+# slurm
+alias si="srun --pty -t 10:00:00 --mem=4G bash"
+alias sim="srun --pty -t 10:00:00 --mem=50G bash"
+alias mod="source /mnt/soft/module-spack-stable.sh"
