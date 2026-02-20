@@ -1,0 +1,83 @@
+theme = "modus_vivendi_tritanopia"
+
+[editor]
+auto-pairs = true
+bufferline = "multiple"
+color-modes = true
+cursorline = true
+rulers = [91]
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+skip-levels = 1
+
+[editor.lsp]
+auto-signature-help = false
+
+[editor.statusline]
+left = ["mode", "read-only-indicator", "file-modification-indicator", "spinner", "file-type", "total-line-numbers", "file-encoding"]
+center = ["file-name"]
+right = ["position", "position-percentage", "spacer", "diagnostics", "workspace-diagnostics", "version-control"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.whitespace.render]
+nbsp = "all"
+tab = "all"
+
+[editor.whitespace.characters]
+nbsp = "·"
+tab = "→"
+
+[editor.soft-wrap]
+# enable = true
+
+[keys.insert]
+C-s = ["normal_mode", ":write"]
+
+[keys.normal]
+# Universal annulation shortcut
+esc = ["collapse_selection", "keep_primary_selection"]
+
+# Easy line copy
+Y = ["select_line_below", "yank", "collapse_selection"]
+
+# Change buffer next/previous for no hand move
+space.e = ":buffer-previous"
+space.t = ":buffer-next"
+# Shortcut for buffer closing
+space.q = ":buffer-close"
+
+# Flip anchor and cursor
+space.space = "flip_selections"
+
+# Change selection shortcut to select for easier manipulation combined with flip anchor
+x = "select_line_below"
+X = "select_line_above"
+
+# Duplicate line
+C-d = ["extend_to_line_bounds", "yank", "paste_after"]
+
+# Move line up or down
+C-up = ["extend_to_line_bounds", "delete_selection", "move_visual_line_up", "paste_before"]
+C-down = ["extend_to_line_bounds", "delete_selection", "move_visual_line_down", "paste_before"]
+
+# Move selection right or left
+C-right = ["delete_selection", "move_char_right", "paste_before"]
+C-left = ["delete_selection", "move_char_left", "paste_before"]
+
+# Use C-s for saving file, changing jump to C-space
+C-s = [":write"]
+C-space = "save_selection"
+
+# Instant format on C-f
+C-f = ":format"
+
+"F1" = ":config-reload"
+"F2" = ":config-open"
