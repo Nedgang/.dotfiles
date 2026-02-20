@@ -16,9 +16,6 @@ antigen bundle git
 # Explain how to install missing binary
 antigen bundle command-not-found
 
-# Chuck Norris facts on demand
-antigen bundle chucknorris
-
 # Colorization for cat
 antigen bundle colorize
 
@@ -33,9 +30,6 @@ antigen bundle colored-man-pages
 
 # Easy extract
 antigen bundle extract
-
-# Random quote
-antigen bundle rand-quote
 
 # colors
 antigen bundle zsh-users/zsh-syntax-highlighting 
