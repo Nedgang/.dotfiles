@@ -1,4 +1,4 @@
-theme = "modus_vivendi_tritanopia"
+theme = "adwaita-dark"
 
 [editor]
 auto-pairs = true
