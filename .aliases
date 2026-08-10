@@ -26,6 +26,6 @@ alias srenv='source venv/bin/activate'
 alias t='tmux new-session -A -s "Travail"'
 
 # slurm
-alias si="srun --pty -t 10:00:00 --mem=4G bash"
+alias si="srun --pty -t 10:00:00 --mem=2G bash"
 alias sim="srun --pty -t 10:00:00 --mem=50G bash"
 alias mod="source /mnt/soft/module-spack-stable.sh"
