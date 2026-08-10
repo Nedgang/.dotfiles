@@ -2,6 +2,7 @@ theme = "adwaita-dark"
 
 [editor]
 auto-pairs = true
+auto-format = true
 bufferline = "multiple"
 color-modes = true
 cursorline = true
