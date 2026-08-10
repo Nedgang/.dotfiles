@@ -1,4 +1,3 @@
-# language-servers = ["pylsp"]
 [[language]]
 name = "python"
 language-servers = ["ruff", "pylsp"]
