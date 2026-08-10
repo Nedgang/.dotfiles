@@ -11,10 +11,3 @@ args = ["server"]
 [language-server.pylsp.config.pylsp.plugins]
 ruff = {enabled = true}
 flake8 = {enabled = false, ignore = ["E501", "W503"]}
-
-[[language]]
-name = "bash"
-language-servers = ["bashls"]
-
-[language-server.bashls]
-command = "bashls"
